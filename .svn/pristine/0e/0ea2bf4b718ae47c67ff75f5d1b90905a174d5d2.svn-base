@@ -1,0 +1,17 @@
+namespace PMEntity
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Spatial;
+
+    public partial class General_Request_Status_Master_299
+    {
+        [Key]
+        public short Request_Status_Id { get; set; }
+
+        [StringLength(25)]
+        public string Request_Status { get; set; }
+    }
+}

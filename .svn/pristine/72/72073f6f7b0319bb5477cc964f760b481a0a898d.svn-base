@@ -1,0 +1,186 @@
+namespace PMEntity
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Spatial;
+
+    public partial class Employee_PrimaryInformation_Master_5
+    {
+        [Key]
+        [Column(Order = 0)]
+        public int PrimaryInformation_Id { get; set; }
+
+        [Key]
+        [Column(Order = 1)]
+        [StringLength(80)]
+        public string Employee_Code { get; set; }
+
+        public int? Title_Id { get; set; }
+
+        public DateTime? Date_Of_Birth { get; set; }
+
+        public int? MaritalStatus_Id { get; set; }
+
+        public int? BloodGroup_Id { get; set; }
+
+        public DateTime? Anniversary_Date { get; set; }
+
+        [StringLength(250)]
+        public string Correspondence_Address { get; set; }
+
+        [StringLength(250)]
+        public string Permanent_Address { get; set; }
+
+        [StringLength(30)]
+        public string Mobile_Number { get; set; }
+
+        [StringLength(30)]
+        public string Landline_Number { get; set; }
+
+        [StringLength(20)]
+        public string Work_Phone_Ext { get; set; }
+
+        [StringLength(50)]
+        public string Work_Phone_Number { get; set; }
+
+        [StringLength(50)]
+        public string Passport_Number { get; set; }
+
+        public DateTime? Date_Of_Issue { get; set; }
+
+        public DateTime? Expiry_Date { get; set; }
+
+        [StringLength(100)]
+        public string Place_of_Issue { get; set; }
+
+        public int? Gender_Id { get; set; }
+
+        [StringLength(50)]
+        public string State_of_Origin { get; set; }
+
+        [StringLength(5)]
+        public string Willing_to_Relocate { get; set; }
+
+        [StringLength(50)]
+        public string Personal_EmailId { get; set; }
+
+        public int? EmploymentType_Id { get; set; }
+
+        public int? Country_Id { get; set; }
+
+        public int? City_Id { get; set; }
+
+        public int? Location_Id { get; set; }
+
+        public int? AttendanceMethodology_Id { get; set; }
+
+        public long? Shift_Pattern_Id { get; set; }
+
+        [StringLength(20)]
+        public string Nationality { get; set; }
+
+        [StringLength(50)]
+        public string Fathers_Name { get; set; }
+
+        [StringLength(50)]
+        public string Mothers_Name { get; set; }
+
+        [StringLength(50)]
+        public string Spouse_Name { get; set; }
+
+        [StringLength(50)]
+        public string Dependent1 { get; set; }
+
+        [StringLength(50)]
+        public string Dependent2 { get; set; }
+
+        public int? State_Id { get; set; }
+
+        public int? Grade_Id { get; set; }
+
+        public DateTime? Join_Date { get; set; }
+
+        public DateTime? Confirmation_Date { get; set; }
+
+        public int? Probation_Period { get; set; }
+
+        [StringLength(50)]
+        public string Official_EmailId1 { get; set; }
+
+        [StringLength(50)]
+        public string Official_EmailId2 { get; set; }
+
+        public bool? Seperated { get; set; }
+
+        [StringLength(20)]
+        public string First_Name { get; set; }
+
+        [StringLength(20)]
+        public string Middle_Name { get; set; }
+
+        [StringLength(20)]
+        public string Last_Name { get; set; }
+
+        public int? CompanyDepartment_Id { get; set; }
+
+        public int? CmpDepartmentProcess_Id { get; set; }
+
+        public int? CompanyDesignation_Id { get; set; }
+
+        [StringLength(20)]
+        public string Employment_Status { get; set; }
+
+        [StringLength(20)]
+        public string Country_Code { get; set; }
+
+        public int? Department_Id { get; set; }
+
+        public int? Process_Id { get; set; }
+
+        public int? Designation_Id { get; set; }
+
+        public int? Company_Id { get; set; }
+
+        public int? BusinessVertical_Id { get; set; }
+
+        public int? Duration { get; set; }
+
+        public DateTime? Contract_UpTo_Date { get; set; }
+
+        public bool? roster { get; set; }
+
+        public int? Branch_Id { get; set; }
+
+        public DateTime? Last_Working_Date { get; set; }
+
+        [StringLength(12)]
+        public string Adhar_No { get; set; }
+
+        [StringLength(25)]
+        public string PF_No { get; set; }
+
+        [StringLength(30)]
+        public string ESIC_No { get; set; }
+
+        public bool? IsActivated { get; set; }
+
+        public DateTime? ActivatedOn { get; set; }
+
+        public int? NoticePeriod_Id { get; set; }
+
+        [Column(TypeName = "date")]
+        public DateTime? Next_Appraisal_Date { get; set; }
+
+        public bool? IsJoined { get; set; }
+
+        public DateTime? Appointment_Letter_Date { get; set; }
+
+        public DateTime? Confirmation_Letter_Date { get; set; }
+
+        public bool? Image_Upload_Status { get; set; }
+
+        public DateTime? Image_Upload_Date { get; set; }
+    }
+}

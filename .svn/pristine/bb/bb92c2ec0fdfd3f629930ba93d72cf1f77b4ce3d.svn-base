@@ -1,0 +1,36 @@
+namespace PMSEntity
+{
+    using System;
+    using System.Data.Entity;
+    using System.ComponentModel.DataAnnotations.Schema;
+    using System.Linq;
+    using PMSEntity.Master;
+
+    public partial class PerformanceManagementDBContext : DbContext
+    {
+        public PerformanceManagementDBContext() : base("name=DefaultConnection")
+        {
+            Database.SetInitializer<PerformanceManagementDBContext>(new CreateDatabaseIfNotExists<PerformanceManagementDBContext>());
+
+            //Database.SetInitializer<VinayDBContext>(new DropCreateDatabaseIfModelChanges<PerformanceManagementDBContext>());
+            //Database.SetInitializer<VinayDBContext>(new DropCreateDatabaseAlways<PerformanceManagementDBContext>());
+        }
+        public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<Master_Status> Master_Status { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Employee>()
+                .Property(e => e.Country_Code)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Employee>()
+                .Property(e => e.Adhar_No)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<Master_Status>()
+                .Property(e => e.Request_Status)
+                .IsUnicode(false);
+
+        }
+    }
+}
