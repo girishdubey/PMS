@@ -8,6 +8,7 @@ namespace PMSEntity.Model.Master
 
     public partial class ClientRegistration
     {
+        [Key]
         public long RegistrationID { get; set; }
         public string FirstName { get; set; }
         public string Lastname { get; set; }

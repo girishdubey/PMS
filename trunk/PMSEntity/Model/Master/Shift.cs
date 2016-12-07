@@ -15,7 +15,6 @@ namespace PMSEntity.Model.Master
         [Column(Order = 1)]
         [StringLength(80)]
         public string Name { get; set; }
-        [StringLength(20)]
         public bool Is_General_Shift { get; set; }
     }
 }

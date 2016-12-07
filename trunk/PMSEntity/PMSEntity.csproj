@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IEmployee.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Master\Holiday.cs" />
     <Compile Include="Model\Master\Registration.cs" />
     <Compile Include="Model\Master\Shift.cs" />
@@ -60,15 +61,6 @@
     <Compile Include="Interface\IHoliday.cs" />
     <Compile Include="Interface\IRegistration.cs" />
     <Compile Include="Interface\IShift.cs" />
-    <Compile Include="Migrations\201610051031200_initDB.cs" />
-    <Compile Include="Migrations\201610051031200_initDB.Designer.cs">
-      <DependentUpon>201610051031200_initDB.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201610280616020_namechange.cs" />
-    <Compile Include="Migrations\201610280616020_namechange.Designer.cs">
-      <DependentUpon>201610280616020_namechange.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PerformanceManagementDBContext.cs" />
     <Compile Include="Repository\EmployeeRepository.cs" />
@@ -86,14 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201610051031200_initDB.resx">
-      <DependentUpon>201610051031200_initDB.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201610280616020_namechange.resx">
-      <DependentUpon>201610280616020_namechange.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

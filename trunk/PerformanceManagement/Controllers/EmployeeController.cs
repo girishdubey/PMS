@@ -31,6 +31,14 @@ namespace PerformanceManagement.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Index()
+        {
+            // We are using async task
+            GetAllAccountDetails2();
+            return View();
+        }
+
         // Getting Data
         [NonAction]
         public void GetAllAccountDetails()
@@ -46,6 +54,24 @@ namespace PerformanceManagement.Controllers
                 //Setting Callback
                 client.DownloadStringCompleted += new DownloadStringCompletedEventHandler(DownloadString_Callback);
                 client.DownloadStringAsync(URI);
+            }
+        }
+
+        // Getting Data
+        [NonAction]
+        public void GetAllAccountDetails2()
+        {
+            using (var client = new WebClient()) //WebClient  
+            {
+                // URI 
+                Uri URI = new Uri(ServiceURI + "api/employee/1");
+                client.Headers.Add("Content-Type:application/json");
+                // Generating token
+                client.Headers.Add("APIKEY", GenerateToken.CreateToken(IPAddress, Token, DateTime.UtcNow.Ticks));
+                client.Headers.Add("Accept:application/json");
+                //Setting Callback
+                client.DownloadStringCompleted += new DownloadStringCompletedEventHandler(DownloadString_Callback);
+                client.DownloadString(URI);
             }
         }
 

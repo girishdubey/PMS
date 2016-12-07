@@ -40,6 +40,7 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagemen
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Microsoft.Web.Infrastructure.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Newtonsoft.Json.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Owin.dll
+D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\PMSEntity.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\System.Web.Helpers.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\System.Web.Mvc.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\System.Web.Optimization.dll
@@ -48,6 +49,7 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagemen
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\System.Web.WebPages.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\System.Web.WebPages.Razor.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\WebGrease.dll
+D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\PMSEntity.pdb
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Microsoft.AI.DependencyCollector.xml
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\Microsoft.AI.Web.xml
@@ -80,5 +82,3 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagemen
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\obj\Debug\PerformanceManagement.csprojResolveAssemblyReference.cache
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\obj\Debug\PerformanceManagement.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\obj\Debug\PerformanceManagement.pdb
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\PMSEntity.dll
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PerformanceManagement\bin\PMSEntity.pdb

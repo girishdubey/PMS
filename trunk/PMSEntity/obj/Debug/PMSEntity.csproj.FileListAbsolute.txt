@@ -5,9 +5,6 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\bin\Debug\
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\bin\Debug\EntityFramework.SqlServer.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\bin\Debug\EntityFramework.xml
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\bin\Debug\EntityFramework.SqlServer.xml
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.csprojResolveAssemblyReference.cache
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.Migrations.initDB.resources
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.Migrations.namechange.resources
-D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.csproj.GenerateResource.Cache
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.pdb
+D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.csprojResolveAssemblyReference.cache

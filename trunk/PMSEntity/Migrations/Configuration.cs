@@ -1,4 +1,4 @@
-namespace PMSEntity.Migrations
+﻿namespace PMSEntity.Migrations
 {
     using System;
     using System.Data.Entity;
