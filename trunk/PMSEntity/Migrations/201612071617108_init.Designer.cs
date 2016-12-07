@@ -13,7 +13,7 @@ namespace PMSEntity.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201612070156356_init"; }
+            get { return "201612071617108_init"; }
         }
         
         string IMigrationMetadata.Source

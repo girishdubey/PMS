@@ -13,3 +13,15 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Releas
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Release\PMSEntity.pdb
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Release\PMSEntity.Migrations.addedshift.resources
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Release\PMSEntity.Migrations.addedshift2.resources
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\PMSEntity.dll.config
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\PMSEntity.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\PMSEntity.pdb
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\EntityFramework.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\EntityFramework.SqlServer.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\EntityFramework.xml
+E:\_project\web\PMS\trunk\PMSEntity\bin\Release\EntityFramework.SqlServer.xml
+E:\_project\web\PMS\trunk\PMSEntity\obj\Release\PMSEntity.csprojResolveAssemblyReference.cache
+E:\_project\web\PMS\trunk\PMSEntity\obj\Release\PMSEntity.Migrations.init.resources
+E:\_project\web\PMS\trunk\PMSEntity\obj\Release\PMSEntity.csproj.GenerateResource.Cache
+E:\_project\web\PMS\trunk\PMSEntity\obj\Release\PMSEntity.dll
+E:\_project\web\PMS\trunk\PMSEntity\obj\Release\PMSEntity.pdb

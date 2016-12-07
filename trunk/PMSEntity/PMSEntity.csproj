@@ -53,9 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IEmployee.cs" />
-    <Compile Include="Migrations\201612070156356_init.cs" />
-    <Compile Include="Migrations\201612070156356_init.Designer.cs">
-      <DependentUpon>201612070156356_init.cs</DependentUpon>
+    <Compile Include="Migrations\201612071617108_init.cs" />
+    <Compile Include="Migrations\201612071617108_init.Designer.cs">
+      <DependentUpon>201612071617108_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Master\Holiday.cs" />
@@ -84,8 +84,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201612070156356_init.resx">
-      <DependentUpon>201612070156356_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201612071617108_init.resx">
+      <DependentUpon>201612071617108_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
