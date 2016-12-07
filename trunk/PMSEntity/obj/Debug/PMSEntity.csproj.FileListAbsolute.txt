@@ -8,3 +8,15 @@ D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\bin\Debug\
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.dll
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.pdb
 D:\WORKAREA\Girish\Projects\App\PerformanceManagement\trunk\PMSEntity\obj\Debug\PMSEntity.csprojResolveAssemblyReference.cache
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\PMSEntity.dll.config
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\PMSEntity.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\PMSEntity.pdb
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\EntityFramework.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\EntityFramework.SqlServer.dll
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\EntityFramework.xml
+E:\_project\web\PMS\trunk\PMSEntity\bin\Debug\EntityFramework.SqlServer.xml
+E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.csprojResolveAssemblyReference.cache
+E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.dll
+E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.pdb
+E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.Migrations.init.resources
+E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.csproj.GenerateResource.Cache

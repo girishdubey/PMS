@@ -53,6 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Interface\IEmployee.cs" />
+    <Compile Include="Migrations\201612070156356_init.cs" />
+    <Compile Include="Migrations\201612070156356_init.Designer.cs">
+      <DependentUpon>201612070156356_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Master\Holiday.cs" />
     <Compile Include="Model\Master\Registration.cs" />
@@ -79,7 +83,11 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612070156356_init.resx">
+      <DependentUpon>201612070156356_init.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

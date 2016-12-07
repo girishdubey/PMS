@@ -1,4 +1,4 @@
-﻿namespace PMSEntity.Migrations
+namespace PMSEntity.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -21,8 +21,8 @@
             //
             //    context.People.AddOrUpdate(
             //      p => p.FullName,
-            //      new Person { FullName = "Girish Dubey" },
-            //      new Person { FullName = "Samridhi Patni" },
+            //      new Person { FullName = "Andrew Peters" },
+            //      new Person { FullName = "Brice Lambson" },
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
