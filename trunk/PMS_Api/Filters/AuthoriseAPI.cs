@@ -148,7 +148,7 @@ namespace PMS_Api.Filters
 
         private void DebugLog(string Content, StringBuilder sb)
         {
-            sb.AppendLine(DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt") + Content);
+            sb.AppendLine(DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss tt ") + Content);
         }
         private void WriteLog(string LogKey, StringBuilder sb)
         {
@@ -157,19 +157,21 @@ namespace PMS_Api.Filters
                 string LOGPath = System.Configuration.ConfigurationManager.AppSettings["LogPath"];
                 string timestamp = DateTime.Now.ToString("dd-MMM-yyyy");
                 string path = LOGPath +"/"+ LogKey + "/" + timestamp + ".txt";
-                //using (StreamWriter writer = new StreamWriter(path, true))
-                //{
-                //    StringBuilder Content = new StringBuilder(1024);
-                //    Content.AppendLine("=====================Start LogKey=====================");
-                //    Content.AppendLine("====================="+ DateTime.Now.ToString("dd-MMM-yyyy  HH:mm:ss") + "=====================");
-                //    Content.AppendLine(sb.ToString());
-                //    Content.AppendLine("=====================End LogKey=====================");
-                //    writer.WriteLine(Content);
-                //    writer.Close();
-                //    sb.Length = 0;
-                //    Content.Length = 0;
-                //}
-                System.IO.File.WriteAllText(path, sb.ToString());
+                if (!Directory.Exists(LOGPath + "/" + LogKey))
+                    Directory.CreateDirectory(LOGPath + "/" + LogKey);
+                using (StreamWriter writer = new StreamWriter(path, true))
+                {
+                    StringBuilder Content = new StringBuilder(1024);
+                    Content.AppendLine("=====================Start LogKey=====================");
+                    Content.AppendLine("=====================" + DateTime.Now.ToString("dd-MMM-yyyy  HH:mm:ss") + "=====================");
+                    Content.AppendLine(sb.ToString());
+                    Content.AppendLine("=====================End LogKey=====================");
+                    writer.WriteLine(Content);
+                    writer.Close();
+                    sb.Length = 0;
+                    Content.Length = 0;
+                }
+                //System.IO.File.WriteAllText(path, sb.ToString());
             }
             catch
             {

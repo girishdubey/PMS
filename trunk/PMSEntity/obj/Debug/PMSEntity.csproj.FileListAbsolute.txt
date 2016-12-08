@@ -19,4 +19,3 @@ E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.Migrations.init.resource
 E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.csproj.GenerateResource.Cache
 E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.dll
 E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.pdb
-E:\_project\web\PMS\trunk\PMSEntity\obj\Debug\PMSEntity.csprojResolveAssemblyReference.cache
