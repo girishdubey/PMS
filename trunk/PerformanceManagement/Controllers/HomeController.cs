@@ -36,11 +36,11 @@ namespace PerformanceManagement.Controllers
             return View();
         }
 
-        public ActionResult Header()
-        {
-            List<PMSEntity.Model.Master.Employee> _emp = new List<PMSEntity.Model.Master.Employee>();
-            return PartialView(_emp);
-        }
+        //public ActionResult Header()
+        //{
+        //    List<PMSEntity.Model.Master.Employee> _emp = new List<PMSEntity.Model.Master.Employee>();
+        //    return PartialView(_emp);
+        //}
 
     }
 }
