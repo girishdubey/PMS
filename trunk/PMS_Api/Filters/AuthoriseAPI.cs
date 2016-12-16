@@ -1,8 +1,8 @@
 ﻿using PMS_Api.CryptoLibrary;
-using PMSEntity.Model;
-using PMSEntity.Model.Master;
-using PMSEntity.Interface;
-using PMSEntity.Repository;
+using PMS_Entity.Model;
+using PMS_Entity.Model.Master;
+using PMS_Entity.Interface;
+using PMS_Entity.Repository;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -23,7 +23,7 @@ namespace PMS_Api.Filters
         public AuthoriseAPI()
         {
             StringBuilder sb = new StringBuilder(1024);
-            _IRegistration = new RegistrationRepository(new PMSEntity.PerformanceManagementDBContext());
+            _IRegistration = new RegistrationRepository(new PMS_Entity.PerformanceManagementDBContext());
         }
 
 

@@ -1,16 +1,16 @@
 ﻿using Newtonsoft.Json;
 using PMS_Api.CryptoLibrary;
 using PMS_Api.Filters;
-using PMSEntity.Model;
-using PMSEntity.Model.Master;
-using PMSEntity.Repository;
+using PMS_Entity.Model;
+using PMS_Entity.Model.Master;
+using PMS_Entity.Repository;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using PMSEntity;
+using PMS_Entity;
 
 namespace PMS_Api.Controllers
 {

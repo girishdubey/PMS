@@ -245,9 +245,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PMSEntity\PMSEntity.csproj">
+    <ProjectReference Include="..\PMS_Entity\PMS_Entity.csproj">
       <Project>{93ef4e3f-424e-4c17-b44a-37ce4d316219}</Project>
-      <Name>PMSEntity</Name>
+      <Name>PMS_Entity</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

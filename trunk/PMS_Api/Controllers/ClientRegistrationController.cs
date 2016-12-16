@@ -5,8 +5,8 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using PMSEntity;
-using PMSEntity.Model.Master;
+using PMS_Entity;
+using PMS_Entity.Model.Master;
 
 namespace PMS_Api.Controllers
 {
