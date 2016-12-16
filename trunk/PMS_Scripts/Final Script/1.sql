@@ -1,23 +1,3 @@
-CREATE TABLE [dbo].[ClientRegistrations]
-  (
-     [RegistrationID] [BIGINT] IDENTITY(1, 1) NOT NULL,
-     [FirstName]      [VARCHAR](50) NULL,
-     [Lastname]       [VARCHAR](50) NULL,
-     [Gender]         [CHAR](1) NULL,
-     [Username]       [VARCHAR](50) NULL,
-     [Password]       [VARCHAR](100) NULL,
-     [Mobileno]       [VARCHAR](10) NULL,
-     [EmailID]        [VARCHAR](50) NULL,
-     [Createddate]    [DATETIME] NULL,
-     [Token]          [VARCHAR](100) NULL,
-     [EncryKey]       [VARCHAR](100) NULL,
-     [IVKey]          [VARCHAR](100) NULL,
-     [UniqueID]       [VARCHAR](100) NULL,
-     CONSTRAINT [PK_ClientRegistration] PRIMARY KEY CLUSTERED ( [RegistrationID] ASC )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-  )
-ON [PRIMARY]
-
-GO
 
 SET IDENTITY_INSERT [dbo].[ClientRegistrations] ON
 
