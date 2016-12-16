@@ -10,8 +10,8 @@ namespace PMS_Entity.Repository
 {
     public class ShiftRepository : IShift
     {
-        PerformanceManagementDBContext _PMSDBEntities;
-        public ShiftRepository(PerformanceManagementDBContext PMSDBEntities)
+        PMSDBContext _PMSDBEntities;
+        public ShiftRepository(PMSDBContext PMSDBEntities)
         {
             _PMSDBEntities = PMSDBEntities;
         }

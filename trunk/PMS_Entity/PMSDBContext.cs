@@ -7,11 +7,11 @@ namespace PMS_Entity
     using PMS_Entity.Model;
     using PMS_Entity.Model.Master;
 
-    public partial class PerformanceManagementDBContext : DbContext
+    public partial class PMSDBContext : DbContext
     {
-        public PerformanceManagementDBContext() : base("name=DefaultConnection")
+        public PMSDBContext() : base("name=DefaultConnection")
         {
-            Database.SetInitializer<PerformanceManagementDBContext>(new CreateDatabaseIfNotExists<PerformanceManagementDBContext>());
+            Database.SetInitializer<PMSDBContext>(new CreateDatabaseIfNotExists<PMSDBContext>());
         }
         public virtual DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Shift> Shifts { get; set; }

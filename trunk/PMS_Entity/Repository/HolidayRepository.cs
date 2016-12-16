@@ -10,8 +10,8 @@ namespace PMS_Entity.Repository
 {
     public class HolidayRepository : IHoliday
     {
-        PerformanceManagementDBContext _PMSDBEntities;
-        public HolidayRepository(PerformanceManagementDBContext PMSDBEntities)
+        PMSDBContext _PMSDBEntities;
+        public HolidayRepository(PMSDBContext PMSDBEntities)
         {
             _PMSDBEntities = PMSDBEntities;
         }

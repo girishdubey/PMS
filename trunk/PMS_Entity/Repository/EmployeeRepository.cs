@@ -10,8 +10,8 @@ namespace PMS_Entity.Repository
 {
     public class EmployeeRepository : IEmployee
     {
-        PerformanceManagementDBContext _PMSDBEntities;
-        public EmployeeRepository(PerformanceManagementDBContext PMSDBEntities)
+        PMSDBContext _PMSDBEntities;
+        public EmployeeRepository(PMSDBContext PMSDBEntities)
         {
             _PMSDBEntities = PMSDBEntities;
         }

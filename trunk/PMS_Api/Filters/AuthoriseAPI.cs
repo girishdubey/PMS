@@ -23,7 +23,7 @@ namespace PMS_Api.Filters
         public AuthoriseAPI()
         {
             StringBuilder sb = new StringBuilder(1024);
-            _IRegistration = new RegistrationRepository(new PMS_Entity.PerformanceManagementDBContext());
+            _IRegistration = new RegistrationRepository(new PMS_Entity.PMSDBContext());
         }
 
 

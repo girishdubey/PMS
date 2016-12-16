@@ -20,7 +20,7 @@ namespace PMS_Api.Controllers
         EmployeeRepository _EmployeeRepository;
         public EmployeeController()
         {
-            _EmployeeRepository = new EmployeeRepository(new PerformanceManagementDBContext());
+            _EmployeeRepository = new EmployeeRepository(new PMSDBContext());
         }
         // GET api/Employee
         [HttpGet]

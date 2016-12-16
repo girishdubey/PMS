@@ -12,7 +12,7 @@ namespace PMS_Api.Controllers
 {
     public class ClientRegistrationController : Controller
     {
-        private PerformanceManagementDBContext db = new PerformanceManagementDBContext();
+        private PMSDBContext db = new PMSDBContext();
 
         //
         // GET: /ClientRegistration/

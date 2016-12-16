@@ -10,8 +10,8 @@ namespace PMS_Entity.Repository
 {
     public class RegistrationRepository : IRegistration
     {
-        PerformanceManagementDBContext _PMSDBEntities;
-        public RegistrationRepository(PerformanceManagementDBContext PMSDBEntities)
+        PMSDBContext _PMSDBEntities;
+        public RegistrationRepository(PMSDBContext PMSDBEntities)
         {
             _PMSDBEntities = PMSDBEntities;
         }

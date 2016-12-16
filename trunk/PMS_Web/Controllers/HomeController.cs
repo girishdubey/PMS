@@ -30,7 +30,7 @@ namespace PMS_Web.Controllers
 
         public ActionResult SaveData()
         {
-            using (var db = new PerformanceManagementDBContext())
+            using (var db = new PMSDBContext())
             {
             }
             return View();
