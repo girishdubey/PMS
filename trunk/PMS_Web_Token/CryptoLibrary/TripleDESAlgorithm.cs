@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-
-namespace PMS_Api.CryptoLibrary
+﻿namespace PMS_Web_Token.CryptoLibrary
 {
+    using System;
+    using System.Security.Cryptography;
+    using System.Text;
+
+    #region TripleDESAlgorithm
     public static class TripleDESAlgorithm
     {
 
@@ -36,5 +34,5 @@ namespace PMS_Api.CryptoLibrary
             return Encoding.Unicode.GetString(output);
         }
     }
-
+    #endregion TripleDESAlgorithm
 }
