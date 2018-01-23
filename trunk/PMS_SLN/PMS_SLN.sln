@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS_Web", "..\PMS_Web\PMS_Web.csproj", "{E750AD90-0C3E-4333-B7A7-235F8F1B42FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS_Entity", "..\PMS_Entity\PMS_Entity.csproj", "{93EF4E3F-424E-4C17-B44A-37CE4D316219}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS_Api", "..\PMS_Api\PMS_Api.csproj", "{F8441203-A8BF-4FCD-AA3F-35B1EB6E0991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS_Web_Token", "..\PMS_Web_Token\PMS_Web_Token.csproj", "{026E2BF8-5059-4A79-B931-2C50A2C9169D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F8441203-A8BF-4FCD-AA3F-35B1EB6E0991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8441203-A8BF-4FCD-AA3F-35B1EB6E0991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8441203-A8BF-4FCD-AA3F-35B1EB6E0991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026E2BF8-5059-4A79-B931-2C50A2C9169D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026E2BF8-5059-4A79-B931-2C50A2C9169D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026E2BF8-5059-4A79-B931-2C50A2C9169D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026E2BF8-5059-4A79-B931-2C50A2C9169D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

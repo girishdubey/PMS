@@ -182,7 +182,7 @@
     <Compile Include="Controllers\ShiftController.cs" />
     <Compile Include="Controllers\HolidayController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
-    <Compile Include="CryptoLibrary\EncryptionDecryptorTripleDES.cs" />
+    <Compile Include="CryptoLibrary\TripleDESAlgorithm.cs" />
     <Compile Include="Filters\AuthoriseAPI.cs" />
     <Compile Include="Filters\ShareKeys.cs" />
     <Compile Include="Global.asax.cs">
@@ -262,7 +262,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>52833</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

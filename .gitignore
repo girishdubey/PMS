@@ -48,3 +48,10 @@ Temporary Items
 *.svn-base
 *.cache
 *.db
+/trunk/PMS_Web/bin
+/trunk/PMS_Web/obj
+/trunk/PMS_Api/bin
+/trunk/PMS_Api/obj
+/trunk/PMS_Entity/bin
+/trunk/PMS_Entity/obj
+/trunk/PMS_SLN/packages
